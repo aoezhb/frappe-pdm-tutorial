@@ -73,6 +73,28 @@ In short: you may use, share, adapt, and teach from the documentation as long as
 - 文档部分：CC BY-SA 4.0
 - `CODE_SNIPPETS.md` 中的代码片段：MIT
 
+## Roadmap
+
+Contributions are welcome. If you find a missing topic, unclear explanation, better example, or useful teaching material, feel free to open an issue or pull request.
+
+- [ ] Add screenshots
+- [ ] Add runnable sample Frappe app
+- [ ] Add Docker-based setup guide
+- [ ] Add GitHub Pages documentation site
+- [ ] Add video walkthrough
+- [ ] Add advanced architecture module
+
+## 路线图
+
+欢迎大家一起补充和参与。如果你发现缺少的主题、不够清楚的解释、更好的示例或有价值的教学材料，欢迎提交 issue 或 pull request。
+
+- [ ] 补充截图
+- [ ] 增加可运行的 Frappe 示例 App
+- [ ] 增加基于 Docker 的环境搭建指南
+- [ ] 发布 GitHub Pages 文档站
+- [ ] 增加视频讲解
+- [ ] 增加高级架构模块
+
 ## Project Maintenance
 
 - Changes are tracked in [CHANGELOG.md](./CHANGELOG.md).

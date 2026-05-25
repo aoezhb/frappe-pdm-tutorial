@@ -113,6 +113,17 @@ The final project can be assessed out of 100 points:
 - Fixtures, migration, and code organization: 10
 - Tests and final demo: 5
 
+## Roadmap
+
+Contributions are welcome. If you find a missing topic, unclear explanation, better example, or useful teaching material, feel free to open an issue or pull request.
+
+- [ ] Add screenshots
+- [ ] Add runnable sample Frappe app
+- [ ] Add Docker-based setup guide
+- [ ] Add GitHub Pages documentation site
+- [ ] Add video walkthrough
+- [ ] Add advanced architecture module
+
 ## Open Source License
 
 This course uses a dual-license model:
