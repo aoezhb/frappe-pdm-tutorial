@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Editor and IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frappe / Bench local artifacts
+sites/
+logs/
+*.log
+*.pid
+*.sock
+config/pids/
+config/redis_cache.conf
+config/redis_queue.conf
+config/redis_socketio.conf
+
+# Local environment
+.env
+.env.*
+
+# Build and generated docs
+site/
+dist/
+build/
+.cache/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
