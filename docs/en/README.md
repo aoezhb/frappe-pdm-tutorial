@@ -8,7 +8,7 @@ This course teaches Frappe Framework through a small but realistic PDM (Product 
 
 Instead of starting from abstract framework concepts, the course starts from business objects: items, BOMs, engineering change orders, approvals, reports, and APIs. You will gradually learn how to turn real business rules into Frappe DocTypes, workflows, scripts, reports, tests, and deployable configuration.
 
-If the advanced version of this course is for architects, this version is for junior developers, ERP implementation consultants, business analysts, and teams that need a slower, more concrete path into Frappe.
+The course is designed for junior developers, ERP implementation consultants, business analysts, and teams that need a gradual, concrete path into Frappe.
 
 ## Course Files
 

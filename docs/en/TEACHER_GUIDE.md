@@ -1,8 +1,8 @@
 # Teacher Guide
 
-## 0. Teaching Principles for This Version
+## 0. Teaching Principles
 
-This beginner-friendly version does not assume learners already understand ERP, databases, permissions, APIs, or enterprise architecture.
+This course does not assume learners already understand ERP, databases, permissions, APIs, or enterprise architecture.
 
 For each new concept, teach in this order:
 
