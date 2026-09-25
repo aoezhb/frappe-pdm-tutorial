@@ -19,6 +19,10 @@ If you want to add a Specification field to Item master data, traditional system
 
 Think of a DocType as a system blueprint. You tell Frappe what the business form looks like, and Frappe builds much of the standard system behavior from that blueprint.
 
+**The shift from CRUD thinking:** Do not start by listing four endpoints and four screens to rebuild in Frappe. First identify the business objects, meanings of fields, links, states, and permissions. Decide what DocType metadata and standard behavior can express; add custom logic for rules that need it. Metadata reduces repetitive implementation but cannot decide business meaning for you.
+
+**Business boundary:** If the team disagrees about what happens to an old BOM after a revision, ask business owners to settle the rule with concrete examples before choosing a Frappe implementation. ERP can digitize agreed rules and improve execution efficiency, and may make existing problems visible; technical configuration alone cannot raise management quality.
+
 ### 2. Batteries Included
 
 Frappe includes many capabilities that enterprise systems usually need:

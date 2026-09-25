@@ -74,13 +74,29 @@ All course files live in the same folder. Links use `./file.md` relative paths s
 ```mermaid
 flowchart LR
     A["Business Understanding"] --> B["DocType Modeling"]
-    B --> C["Permissions and Workflow"]
-    C --> D["Controller and Client Script"]
-    D --> E["ECO Revision Logic"]
+    B --> D["Controller and Client Script"]
+    D --> C["Permissions and Workflow"]
+    C --> E["ECO Revision Logic"]
     E --> F["Query Report"]
     F --> G["REST API Integration"]
     G --> H["Tests, Fixtures, and Delivery"]
 ```
+
+### Competency Map for the Seven Labs
+
+Times are classroom estimates excluding the introductory lessons. The combined slots for Labs 3–4 and 5–6 in the [Teacher Guide](./TEACHER_GUIDE.md) are split evenly here. See the [Practical Labs](./PRACTICAL_LABS.md) for steps and acceptance checks; use the final column to check your understanding before moving on.
+
+| Lab / skill | Before you start | Estimated time | Hands-on result | Explain this on your own |
+| --- | --- | --- | --- | --- |
+| 1: Model business entities | Understand items, BOMs, and ECOs in the spec; recognize fields | 150 min | Create the three main DocTypes, the BOM child table, and sample records | Why use Links for items and a Table for BOM rows? |
+| 2: Validate and automate | Finish Lab 1; read Python conditions and JavaScript events | 120 min | Add BOM save validation and immediate quantity-total feedback | Why can client-side feedback not replace server-side validation? |
+| 3: Permissions and workflow | Finish Lab 1; recognize roles and document states | About 90 min | Configure roles, BOM permissions, and the ECO workflow; test with different users | Why test role permissions and approval actions separately? |
+| 4: ECO-driven revision | Finish Labs 2–3; understand linked documents and submit events | About 90 min | Demonstrate an ECO release updating a linked BOM version | How do the ECO, BOM, and target version form a traceable change story? |
+| 5: Query Report | Finish Lab 1; know SQL tables, joins, and filters | About 75 min | Build a BOM composition report filterable by finished item | How does joining parent and child rows answer what a product contains? |
+| 6: REST API | Finish Labs 1 and 3; understand requests, identity, and permissions | About 75 min | Read and create test items using a token | How do authentication and authorization differ? |
+| 7: Test and deliver | Finish Labs 1–6; know the core rules and configurations | 120 min (including demo preparation) | Check a core validation rule, export fixtures, and demo against the checklist | Why does one successful UI walkthrough not prove the work is portable? |
+
+Try answering the last column before comparing your work with the [Code Snippets](./CODE_SNIPPETS.md) and [Final Delivery Checklist](./FINAL_DELIVERY_CHECKLIST.md). If you cannot answer yet, revisit that lab's steps and acceptance checks.
 
 ## Pre-Class Environment Check
 

@@ -25,6 +25,14 @@ Frappe is a web framework for building business applications. You can think of i
 
 In traditional development, you often create database tables first, then backend APIs, then frontend pages. In Frappe, you usually start by defining a DocType. Frappe then generates a lot of standard capability around that definition.
 
+### Three Distinctions to Make Before You Build
+
+1. **From CRUD to metadata:** CRUD focuses on implementing create, read, update, and delete for each object. Metadata modeling first describes what a document is, which fields and links it has, and who can act on it. The framework then supplies common forms, storage, and APIs. CRUD still exists; you simply do not have to hand-build every screen and endpoint first.
+2. **Validate the business model before configuring the system:** If the team cannot agree on how to identify an item, when a BOM version changes, or who approves a change, another field or script will only encode the disagreement. Ask business owners to confirm the objects, rules, and responsibilities with one normal case and one exception before choosing DocTypes, workflows, or code.
+3. **ERP digitization does not automatically improve management quality:** A system can make agreed data and processes easier to execute, query, and trace, helping efficiency. It can also expose conflicting rules. People must still decide the goals, rules, and responsibilities; installing software does not make those decisions for them.
+
+For example, first ask: "When a supplier changes a motor model, do we edit the existing item or create a new one and raise an ECO? Who decides?" Once the answer is agreed, design the fields, links, and approval flow.
+
 ## 3. Ten Essential Terms
 
 ### DocType

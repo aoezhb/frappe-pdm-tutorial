@@ -45,6 +45,7 @@ frappe-pdm-tutorial/
     │   └── FINAL_DELIVERY_CHECKLIST.md
     └── zh/
         ├── README.md
+        ├── SYSTEM_TEXTBOOK.md
         ├── BEGINNER_GUIDE.md
         ├── LECTURE_NOTES.md
         ├── PROJECT_SPEC.md
@@ -67,6 +68,8 @@ In short: you may use, share, adapt, and teach from the documentation as long as
 ## 中文说明
 
 这是一个中英双语的 Frappe/PDM 教程仓库。英文作为主入口，中文完整版本位于 [docs/zh](./docs/zh/)。
+
+中文系统教材：[从业务模型到可交付应用](./docs/zh/SYSTEM_TEXTBOOK.md)。按目标、全局地图、核心机制、最小实例、分层练习和边界反思组织现有课程主线。
 
 许可采用双协议：
 

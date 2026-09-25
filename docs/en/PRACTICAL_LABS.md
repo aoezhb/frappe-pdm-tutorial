@@ -27,6 +27,14 @@ Use this sample data throughout the labs:
 
 **Goal:** Understand metadata-driven modeling and parent-child document design.
 
+**Check the business model with its owners before opening DocType:**
+
+1. What does an item code uniquely identify? When a supplier changes a model, do we reuse the item or create a new one?
+2. What event changes a BOM version? Must older versions remain available? Who may approve an ECO?
+3. Test the answers with one normal change and one exception. If they conflict, settle the business rule before designing fields and workflows.
+
+**Modeling approach:** Write down the agreed objects, fields, links, and permissions first. Then decide what DocType metadata and standard features cover and what really needs custom code. Do not start by writing separate CRUD screens and endpoints for every object.
+
 **Tasks:**
 
 1. Create `P-Item` with fields for item code, item name, and specification.
@@ -63,6 +71,8 @@ Use this sample data throughout the labs:
 | Specification | specification | Small Text | No | Can be fetched from item |
 
 **Acceptance check:** You can create items, one BOM with child rows, and one ECO in the UI.
+
+**Explain your choices:** Name one requirement that metadata can describe directly and one business disagreement that another field cannot resolve. Digitizing agreed rules makes them easier to execute; it does not automatically make the rules better.
 
 **Common mistakes:**
 
